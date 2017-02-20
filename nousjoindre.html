@@ -123,13 +123,12 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                <h1 class="page-header">Nous joindre
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Accueil</a>
                     </li>
-                    <li class="active">Contact</li>
+                    <li class="active">Nous joindre</li>
                 </ol>
             </div>
         </div>
@@ -140,34 +139,28 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d73548.60593918232!2d-71.43008454550913!3d46.75964477933239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb89b1ca5203e3d%3A0xfc40ce2cada3a318!2s484+Route+Tessier%2C+Saint-Augustin-de-Desmaures%2C+QC+G3A+0E4!5e0!3m2!1sen!2sca!4v1487554247634" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
+                <h3>Alexandre Pigeon</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    484, Route Tessier<br> St-Augustin-de-Desmaures<br> Qc, G3A 0E4
                 </p>
-                <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-                <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                <p><i class="fa fa-phone"></i>
+                    <abbr title="Phone">Tél</abbr>: (819) 238-6477</p>
+                <p><i class="fa fa-envelope-o"></i>
+                    <abbr title="Email"> <a href="mailto:alexandre.pigeon@usherbrooke.ca">alexandre.pigeon@usherbrooke.ca</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.facebook.com/alexandre.pigeon.7"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/alexandre-pigeon-518594b9"><i class="fa fa-linkedin-square fa-2x"></i></a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -177,36 +170,36 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <h3>Send us a Message</h3>
+                <h3>Envoyez-nous un message</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <label>Nom:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Veuillez entrer votre nom.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <label>Numéro de téléphone:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Veuillez entrer votre numéro de téléphone.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <label>Adresse de courriel:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Veuillez entrer une adresse de courriel valide.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Veuillez écrire votre message." maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
             </div>
 
@@ -219,7 +212,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <h4>Copyright &copy; alexandrepigeon.ca 2017</h4>
                 </div>
             </div>
         </footer>
